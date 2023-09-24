@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-real-data-type/tags). For example,
+
+```javascript
 import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@v0.1.0-deno/mod.js';
 ```
 
@@ -88,7 +93,7 @@ bool = isRealDataType( 'uint32' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@v0.1.0-deno/mod.js';
+import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@deno/mod.js';
 
 var bool = isRealDataType( 'binary' );
 // returns false
