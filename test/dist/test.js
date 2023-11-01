@@ -21,74 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isRealDataType = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isRealDataType, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `true` if provided a supported ndarray real-valued data type', function test( t ) {
-	var values;
-	var bool;
-	var i;
-
-	values = [
-		'float32',
-		'float64',
-		'uint16',
-		'uint32',
-		'uint8',
-		'uint8c',
-		'int16',
-		'int32',
-		'int8'
-	];
-	for ( i = 0; i < values.length; i++ ) {
-		bool = isRealDataType( values[ i ] );
-		t.strictEqual( bool, true, 'returns expected value when provided '+values[ i ] );
-	}
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided a supported ndarray real-valued data type', function test( t ) {
-	var values;
-	var bool;
-	var i;
-
-	values = [
-		// Supported dtypes:
-		'binary',
-		'generic',
-		'complex128',
-		'complex64',
-
-		// Unsupported dtypes:
-		'float',
-		'int',
-		'bin',
-		'',
-		'beep',
-		'boop',
-		'foo',
-		'bar',
-		5,
-		NaN,
-		true,
-		false,
-		null,
-		void 0,
-		[],
-		{},
-		function noop() {}
-	];
-	for ( i = 0; i < values.length; i++ ) {
-		bool = isRealDataType( values[ i ] );
-		t.strictEqual( bool, false, 'returns expected value when provided '+values[ i ] );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
