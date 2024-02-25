@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@deno/mod.js';
+import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@v0.2.1-deno/mod.js';
 ```
 
 #### isRealDataType( value )
@@ -88,7 +88,7 @@ bool = isRealDataType( 'uint32' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@deno/mod.js';
+import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@v0.2.1-deno/mod.js';
 
 var bool = isRealDataType( 'binary' );
 // returns false
