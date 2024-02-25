@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-real-data-type/tags). For example,
+
+```javascript
 import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@v0.2.1-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ bool = isRealDataType( 'uint32' );
 <body>
 <script type="module">
 
-import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@v0.2.1-esm/index.mjs';
+import isRealDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-real-data-type@esm/index.mjs';
 
 var bool = isRealDataType( 'binary' );
 // returns false
