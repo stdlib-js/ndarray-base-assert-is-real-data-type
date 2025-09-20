@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/ndarray-dtype-ctor": "github:stdlib-js/ndarray-dtype-ctor#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
