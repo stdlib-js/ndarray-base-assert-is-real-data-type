@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
-    "@stdlib/ndarray-dtypes": "^0.3.0"
+    "@stdlib/ndarray-base-dtype-strings": "github:stdlib-js/ndarray-base-dtype-strings#main"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
