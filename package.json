@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
-    "@stdlib/ndarray-base-dtype-strings": "github:stdlib-js/ndarray-base-dtype-strings#main"
+    "@stdlib/ndarray-base-dtype-strings": "github:stdlib-js/ndarray-base-dtype-strings#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
