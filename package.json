@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-real-data-type",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Test if an input value is a supported ndarray real-valued data type.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
-    "@stdlib/ndarray-base-dtype-strings": "github:stdlib-js/ndarray-base-dtype-strings#main"
+    "@stdlib/ndarray-base-dtype-strings": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
@@ -86,7 +86,6 @@
     "validation",
     "isvalid"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
